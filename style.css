@@ -102,14 +102,15 @@ body {
 
 
 /* Hero Section Start */
-.hero-section{
+.hero-section {
     background-image: url(./images/BackGround.png);
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.hero-1{
+
+.hero-1 {
     width: calc(100% - 8rem);
     max-width: 1440px;
     margin: 0 auto;
@@ -117,83 +118,114 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.hero-1-content{
+
+.hero-1-content {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.play-like{
+
+.play-like {
     text-transform: uppercase;
     font-size: 48px;
     font-weight: 600;
     line-height: 56px;
 }
-.goat{
+
+.goat {
     text-transform: uppercase;
     font-size: 95px;
     font-weight: 800;
     line-height: 111px;
-    background: linear-gradient(#f948b2,#8758f1);
+    background: linear-gradient(#f948b2, #8758f1);
     background-clip: text;
     color: transparent;
 }
-.guideline{
+
+.guideline {
     display: flex;
     flex-direction: column;
     gap: 25px;
     font-size: 20px;
 }
-.instant-play{
+
+.instant-play {
     display: flex;
     gap: 13px;
     color: #FF42A5;
 }
-.no-download{
+
+.no-download {
     display: flex;
     gap: 13px;
     color: #FF42A5;
 }
-.support-player{
+
+.support-player {
     display: flex;
     gap: 10px;
 }
 
-.instant-play p, .no-download p, .support-player p{
+.instant-play p,
+.no-download p,
+.support-player p {
     color: black;
     font-size: 20px;
     font-weight: 500;
     line-height: 23px;
+    cursor: pointer;
 }
 
-.hero1-buttons{
+.instant-play p:hover,
+.no-download p:hover,
+.support-player p:hover {
+    text-decoration: underline;
+}
+
+.hero1-buttons {
     display: flex;
     margin: 10px 0;
     gap: 30px;
 }
-.hero1-button{
+
+.hero1-button {
     padding: 21px 40px;
     border-radius: 48px;
     border: transparent;
     color: white;
     font-size: 20px;
     font-weight: 600;
-    line-height: 23px;
+    text-transform: uppercase;    
 }
-.sign-in{
+
+.sign-in {
     background-color: #FF42A5;
+    cursor: pointer;
 }
-.go-rogue{
+
+.sign-in:hover{
+    outline: 2px solid #FF42A5;
+    outline-offset: 2px;
+}
+
+.go-rogue {
     background-color: #4EC5F7;
+    cursor: pointer;
 }
+
+.go-rogue:hover{
+    outline: 2px solid #4EC5F7;
+    outline-offset: 2px;
+}
+
 /* .hero-1-image{} */
 
-.hero-2{
+.hero-2 {
     background-image: url(./images/BackGround.png);
     background-repeat: no-repeat;
     display: flex;
     background-position: right;
-    /* transform: rotate(120deg); */
     flex-direction: row-reverse;
     width: calc(100% - 8rem);
     max-width: 1440px;
@@ -202,12 +234,54 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.hero-2-content{}
-.hero2-heading{}
-.hero2-text{}
-.hero2-button{}
-.know-more{}
-.our-purpose{}
-.hero-2-image{}
+
+.hero-2-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: right;
+}
+
+.hero2-heading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    background: linear-gradient(#f948b2, #8758f1);
+    background-clip: text;
+    color: transparent;
+}
+
+.hero2-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.know-more {
+    padding: 20px 45px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 48px;
+    background-color: #FF42A5;
+    color: white;
+    border: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.know-more:hover{
+    outline: 2px solid #FF42A5;
+    outline-offset: 2px;
+}
+
+.our-purpose h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.hero-2-image {
+    width: 100%;
+}
 
 /* Hero Section End */
