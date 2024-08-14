@@ -1,4 +1,4 @@
-# For Live Preview : [Go Live]( )
+# For Live Preview : [Go Live](https://sheikhmuhammadantor.github.io/assignment-two-batch-8/)
 
 # Design Repositories : [Link ](https://github.com/ProgrammingHero1/B8A2-Gamer-Zone) -
 
