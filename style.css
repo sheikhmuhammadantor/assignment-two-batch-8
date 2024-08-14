@@ -37,6 +37,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 12px;
+    cursor: pointer;
 }
 
 .logo-section img {
@@ -61,12 +62,22 @@ body {
     gap: 20px;
 }
 
+.developers,
+.about {
+    cursor: pointer;
+    padding: 1px;
+}
+
+.developers:hover,
+.about:hover {
+    text-decoration: underline;
+}
+
 .follow-us {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    /* background-color: #fff; */
     background: #0b02231a;
     border-radius: 8px;
     height: 56px;
@@ -80,6 +91,11 @@ body {
 
 .yt-icon {
     color: red;
+    cursor: pointer;
+}
+
+.tik-icon {
+    cursor: pointer;
 }
 
 /* Header Section End */

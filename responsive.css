@@ -1,0 +1,28 @@
+@media screen and (max-width: 990px) {
+
+    /* Header Section */
+    .header-section {
+        box-shadow: none;
+    }
+
+    .nav-bar {
+        margin: 3rem auto;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .logo-section img {
+        height: 32px;
+    }
+
+    .logo-section h2,
+    .logo-section h2 span {
+        font-size: 28px;
+    }
+
+    .menu-section {
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 14px;
+    }
+}
